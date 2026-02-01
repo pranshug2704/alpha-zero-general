@@ -11,3 +11,11 @@ checkpoints/
 # For PyCharm users
 .idea/
 
+# Pretrained models (too large for GitHub, download separately)
+pretrained_models/**/*.pth.tar
+pretrained_models/**/*.h5
+
+# All model checkpoint files (large)
+**/*.pth.tar
+**/*.pth.tar.data-*
+**/*.pth.tar.index

@@ -1,0 +1,13 @@
+# Requirements for Python 3.12 compatibility
+# Core ML dependencies
+numpy>=1.26.0
+torch>=2.0.0
+
+# Training utilities
+coloredlogs>=15.0.1
+tqdm>=4.64.0
+
+# Optional: TensorFlow/Keras for Keras models (comment out if not needed)
+tensorflow>=2.16.0
+keras>=3.0.0
+h5py>=3.10.0
